@@ -19,8 +19,9 @@ See corresponding guides for the various prerequisites. These guides are not pro
 
 Installing
 ----------
-* Place with the other Nagios plugins 
-* Take in use
+* Place with the other Nagios plugins (for instance: /usr/lib/nagios/plugins/).
+* Make sure Nagios has access rights to execute the plugin (for instance chmod 755 /usr/lib/nagios/plugins/check_vm_disk.pl).
+* Take in use with your Nagios system
 
 Upgrading
 ---------
